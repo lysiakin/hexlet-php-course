@@ -1,0 +1,22 @@
+{
+    "name": "dimasta/hexlet_php",
+    "description": "",
+    "type": "project",
+    "require": {
+        "funct/funct": "^1.5"
+    },
+    "authors": [
+        {
+            "name": "Dmytro",
+            "email": "daringfrogling@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "13ВведениеВООП"
+        },
+        "files": [
+            "lib/src/trees.php"
+        ]
+    }
+}
